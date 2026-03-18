@@ -1,37 +1,45 @@
-/* Reset cơ bản */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Toàn trang */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    height: 100vh;
+    background: #f4f4f4;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 20px;
 }
 
-/* Khung chính */
-.container {
+.cv-container {
+    width: 700px;
     background: white;
-    padding: 40px;
-    border-radius: 12px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
-/* Tiêu đề */
-h1 {
-    color: #333;
-    margin-bottom: 15px;
+.header h1 {
+    color: #2c3e50;
 }
 
-/* Nội dung */
-p {
-    color: #666;
-    font-size: 18px;
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #3498db;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+}
+
+ul {
+    padding-left: 20px;
 }
